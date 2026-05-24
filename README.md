@@ -1,4 +1,4 @@
-# ⋆｡˚🌿 Proyecto CineSpoilerS 🌿˚｡⋆
+# ⋆｡˚🌿 Proyecto  MokasCine 🌿˚｡⋆
 
 ---
 
@@ -15,7 +15,6 @@ El proyecto mantiene una estructura limpia y organizada, además de una interfaz
 - React
 - TypeScript
 - Vite
-- CSS3
 
 ---
 
