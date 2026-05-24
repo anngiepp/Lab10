@@ -1,73 +1,115 @@
-# React + TypeScript + Vite
+# ⋆｡˚🌿 Proyecto CineSpoilerS 🌿˚｡⋆
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ˚₊· ͟͟͞͞➳❥ Aplicación desarrollada con React + TypeScript + Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+CineSpoilerS es una aplicación desarrollada para practicar la creación y comunicación de componentes en React utilizando props, estados y eventos.
 
-## React Compiler
+El proyecto mantiene una estructura limpia y organizada, además de una interfaz minimalista inspirada en colores menta y chocolate.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- CSS3
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Estructura del proyecto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+src
+│
+├── components
+│   └── Card.tsx
+│
+├── pages
+├── routes
+├── services
+├── store
+├── styles
+│   └── global.css
+│
+├── types
+├── utils
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Pasos para ejecutar el proyecto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/anngiepp/Lab10.git
 ```
+
+### 2. Ingresar al proyecto
+
+```bash
+cd Lab10
+```
+
+### 3. Cambiar a la rama de desarrollo
+
+```bash
+git checkout angie-dev
+```
+
+### 4. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 5. Ejecutar el proyecto
+
+```bash
+npm run dev
+```
+
+---
+
+# Evidencias
+
+## Evidencia 1 - Proyecto funcionando correctamente y sin errores
+
+![Evidencia 1](./img/evidencia_1.png)
+![Favicon](./img/favicc.png)
+
+---
+
+## Evidencia 2 - Estructura limpia del proyecto
+
+![Evidencia 2](./img/evidencia_2.png)
+
+---
+
+## Evidencia 3 - Uso de props en componentes
+
+![Evidencia 3](./img/evidencia_3.png)
+
+---
+
+## Evidencia 4 - Estado en el componente
+
+![Evidencia 4](./img/evidencia_4.png)
+
+---
+
+## Evidencia 5 - Manejo de estado mediante eventos
+
+![Evidencia 5](./img/evidencia_5.png)
+
+---
+
+# Conclusión
+
+Se logró desarrollar correctamente una aplicación básica en React utilizando componentes reutilizables, props, estados y eventos. Además, se mantuvo una estructura organizada y una interfaz visual minimalista con temática inspirada en tonos menta.
