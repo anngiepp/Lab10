@@ -14,8 +14,8 @@ Cada integrante trabajó en su propia rama para mantener una estructura organiza
 
 | Integrante | Rama |
 |---|---|
-| Angie Portocarrero | `angie-dev` |
-| Sarai Soto | `sarai/proyecto` |
+| Angie Portocarrero | [Ver proyecto](https://github.com/anngiepp/Lab10/tree/angie-dev) |
+| Sarai Soto | [Ver proyecto](https://github.com/anngiepp/Lab10/tree/sarai/proyecto) |
 
 ---
 
