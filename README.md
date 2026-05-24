@@ -4,7 +4,7 @@
 
 ## ˚₊· ͟͟͞͞➳❥ Aplicación desarrollada con React + TypeScript + Vite
 
-CineSpoilerS es una aplicación desarrollada para practicar la creación y comunicación de componentes en React utilizando props, estados y eventos.
+MokasCine es una aplicación desarrollada para practicar la creación y comunicación de componentes en React utilizando props, estados y eventos.
 
 El proyecto mantiene una estructura limpia y organizada, además de una interfaz minimalista inspirada en colores menta y chocolate.
 
